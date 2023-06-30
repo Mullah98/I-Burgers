@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>I-Burgers</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="total.js" async></script>
+    </head>
+
+    <body>
+        <div class="box">
+        <h1>I-Burgers</h1>
+        <h2>Order your delicious burger to your liking!</h2>
+        <br>
+                <label class="pickup">
+                <input type="radio" name="option" value="collect">Collection
+                </label>
+                <label class="pickup">
+                    <input type="radio" name="option" value="delivery">Delivery
+                </label>
+        <br><br>
+        <h3>Option 1: Choose your burger:</h3>
+        <ul>
+            <li>
+                <label>
+                    <input type="radio" name="burger" value="5.99">Beef
+                    <span class="price">£5.99</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="burger" value="5.99">Chicken
+                    <span class="price">£5.99</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="burger" value="4.99">Veggie
+                    <span class="price">£4.99</span>
+                </label>
+            </li>
+        </ul>
+        <br>
+        <h3>Option 2: Choose your sauces:</h3>
+        <ul>
+            <li>
+                <label>
+                    <input type="checkbox" name="sauce" value="0">Ketchup
+                </label>
+            </li>
+            <li>
+                <label>
+                <input type="checkbox" name="sauce" value="0">Mustard
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="sauce" value="0">Chilly
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="sauce" value="0">Mayonnaise
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="sauce" value="0">Plain
+                </label>
+            </li>
+        </ul>
+        <br>
+        <h3>Option 3: Choose your toppings:</h3>
+        <ul>
+            <li>
+                <label>
+                    <input type="checkbox" name="toppings" value="0">Lettuce
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="toppings" value="0">Tomatoes
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="toppings" value="0">Pickles
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="toppings" value="0">Onions
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="toppings" value="0">Mushrooms
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="toppings" value="1.50">Donner
+                    <span class="price">£1.50</span>
+                </label>
+            </li>
+        </ul>
+        <br>
+        <h3>Option 4: Choose your sides:</h3>
+        <ul>
+            <li>
+                <label>
+                    <input type="radio" name="side" value="1.20">Skin-on fries
+                    <span class="price">£1.20</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="side" value="1.20">Curly fries
+                    <span class="price">£1.20</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="side" value="1.20">Onion rings
+                    <span class="price">£1.20</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="side" value="2.00">5 Wings
+                    <span class="price">£2.00</span>
+                </label>
+            </li>
+        </ul>
+        <br>
+        <h3>Option 5: Choose your drink:</h3>
+        <ul>
+            <li>
+                <label>
+                    <input type="radio" name="drink" value="1.00">Coca cola
+                    <span class="price">£1.00</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="drink" value="1.00">Diet coke
+                    <span class="price">£1.00</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="drink" value="1.00">Sprite
+                    <span class="price">£1.00</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="drink" value="1.00">Dr pepper
+                    <span class="price">£1.00</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="drink" value="0.80">Water
+                    <span class="price">£0.80</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="drink" value="0">No drink
+                </label>
+            </li>
+        </ul>
+        <div class="total-box">
+            <span class="total-label">Total price:</span>
+            <span id="total">£0.00</span>
+        </div>
+        <label class="submit">
+            <input type="submit" name="sub" value="submit order">
+        </label>
+        <br>
+        </div>
+    </body>
+</html>
